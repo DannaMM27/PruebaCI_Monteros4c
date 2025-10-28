@@ -1,7 +1,3 @@
-from app import suma # pyright: ignore[reportMissingImports]
-
+from app import suma
 def test_suma():
-     ()
-
-def new_func():
-    assert suma(2, 3) == 5
+   assert suma(2, 3) == 5
